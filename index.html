@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Obect generator</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Object Generator</h1>
+      <div class="panel">
+        <div class="group">
+          <span class="indicator" id="startIndicator"></span>
+        </div>
+        <div class="group">
+          <button type="button" id="startGenerateBtn" class="btn">
+            Start generate
+          </button>
+        </div>
+      </div>
+      <div class="panel">
+        <div class="group">
+          <span class="indicator" id="startGetterIndicator"></span>
+          <span class="indicator" id="getSuccessIndicator"></span>
+        </div>
+        <div class="group">
+          <div class="counter" id="counter01">0</div>
+          <div class="counter" id="counter02">0</div>
+          <div class="counter" id="counter03">0</div>
+        </div>
+        <div class="group">
+          <button type="button" id="startGetterBtn" class="btn">
+            Start getter
+          </button>
+          <!-- <button type="button" id="stopGetter" class="btn">Stop getter</button> -->
+          <button type="button" id="resetCounter" class="btn">Reset</button>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="./main.js"></script>
+  </body>
+</html>
